@@ -3,12 +3,18 @@
          xmlns="http://maven.apache.org/POM/4.0.0"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.mycompany.app</groupId>
-    <artifactId>my-module</artifactId>
-    <version>1</version>
+    <groupId>com.example.app</groupId>
+    <artifactId>my-app</artifactId>
+    <version>1-SNAPSHOT</version>
     <packaging>jar</packaging>
-    <name>MyApp</name>
-    <url>http://maven.apache.org</url>
+    <name>MyApp-My First Application</name>
+    <!-- url>http://maven.apache.org</url -->
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <java.version>19</java.version>
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>net.authorize</groupId>
